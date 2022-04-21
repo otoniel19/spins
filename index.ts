@@ -43,7 +43,7 @@ class spins {
     var opts = this.options;
     //@ts-ignore
     var spinner = cliSpinners[opts.spinner] || opts.spinner;
-    this.text = text.join(" ");
+    this.text = text;
     this.interval = setInterval(() => {
       opts.stream.clearScreenDown();
       //if has a color
@@ -81,7 +81,7 @@ class spins {
    */
   resume(): this {
     this.options.stream.clearScreenDown();
-    this.start.apply(this, [this.text.split(" ")]);
+    this.start.apply(this, [this.text]);
     return this;
   }
   /**
