@@ -1,6 +1,6 @@
 {
   "name": "spins",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "use spinners in terminal",
   "main": "dist/index.js",
   "keywords": [
