@@ -1,0 +1,22 @@
+{
+  "name": "spins",
+  "version": "1.0.0",
+  "description": "use spinners in terminal",
+  "main": "dist/index.js",
+  "keywords": [
+    "spinner",
+    "cli",
+    "terminal",
+    "spins",
+    "node.js"
+  ],
+  "author": "otoniel19",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "4.1.2",
+    "cli-spinners": "^2.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.24"
+  }
+}
